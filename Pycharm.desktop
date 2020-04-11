@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Pycharm
+Comment=
+Exec=/home/headless/Desktop/pycharm-2020.1/bin/pycharm.sh
+Icon=/home/headless/Desktop/pycharm-2020.1/bin/pycharm.svg
+Path=
+Terminal=false
+StartupNotify=false
