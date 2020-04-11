@@ -7,7 +7,7 @@ RUN wget https://download.jetbrains.com/python/pycharm-professional-2020.1.tar.g
     &&wget https://raw.githubusercontent.com/chengziqaq/vnc-xububtu-chrome-pycharmpro-django/master/Pycharm.desktop \
     && rm pycharm-professional-2020.1.tar.gz
 RUN apt-get update \
-    &&pip3 install pymysql django=2.0
+    &&pip3 install pymysql django==2.0
 WORKDIR /home/headless/Desktop/DjangoProject
 RUN git clone https://github.com/chengziqaq/Django
 
