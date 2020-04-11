@@ -10,3 +10,6 @@ RUN apt-get update \
     &&pip3 install pymysql django=2.0
 WORKDIR /home/headless/Desktop/DjangoProject
 RUN git clone https://github.com/chengziqaq/Django
+
+
+
