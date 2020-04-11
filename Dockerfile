@@ -4,7 +4,7 @@ USER root
 RUN  apt-get update&&apt-get -y install python3-pip git
 RUN wget https://download.jetbrains.com/python/pycharm-professional-2020.1.tar.gz \
     &&tar -zxvf pycharm-professional-2020.1.tar.gz \
-    &&wget https://raw.githubusercontent.com/chengziqaq/vnc-xububtu-chrome-pycharmpro-django/master/Pycharm.desktop
+    &&wget https://raw.githubusercontent.com/chengziqaq/vnc-xububtu-chrome-pycharmpro-django/master/Pycharm.desktop \
     && rm pycharm-professional-2020.1.tar.gz
 RUN apt-get update \
     &&pip3 install pymysql django=2.0
