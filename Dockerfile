@@ -10,6 +10,8 @@ RUN apt-get update \
     &&pip3 install pymysql django==2.0
 WORKDIR /home/headless/Desktop/DjangoProject
 RUN git clone https://github.com/chengziqaq/Django
+RUN # change font
+    apt-get install xfonts-wqy 
 
 
 
