@@ -1,0 +1,1 @@
+docker build -t vnc-xububtu-chrome-pycharmce:latest .

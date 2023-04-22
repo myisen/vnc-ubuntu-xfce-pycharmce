@@ -1,7 +1,7 @@
 version: "3"
 services:
   firefox:
-    image:  chengziqaq/vnc-xububtu-chrome-pycharmpro-django:latest
+    image:  vnc-xububtu-chrome-pycharmce:latest:latest
     volumes:
     - ./dataub:/dataub
     environment:
