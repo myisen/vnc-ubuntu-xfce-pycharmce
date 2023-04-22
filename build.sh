@@ -1,1 +1,1 @@
-docker build -t vnc-xububtu-chrome-pycharmce:latest .
+docker build -t vnc-ubuntu-xfce-pycharm:latest .

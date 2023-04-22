@@ -3,8 +3,7 @@ WORKDIR /home/headless/Desktop
 USER root
 RUN  apt-get update&&apt-get -y install python3-pip git
 RUN wget https://download.jetbrains.com.cn/python/pycharm-community-2023.1.tar.gz  \
-    &&tar -zxvf https://download.jetbrains.com.cn/python/pycharm-community-2023.1.tar.gz \
-    &&wget https://raw.githubusercontent.com/chengziqaq/vnc-xububtu-chrome-pycharmpro-django/master/Pycharm.desktop \
+    &&tar -xvf https://download.jetbrains.com.cn/python/pycharm-community-2023.1.tar.gz \
     && rm https://download.jetbrains.com.cn/python/pycharm-community-2023.1.tar.gz
 RUN apt-get update \
     &&pip3 install pymysql django==2.0

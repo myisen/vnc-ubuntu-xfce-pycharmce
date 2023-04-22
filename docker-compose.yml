@@ -1,7 +1,7 @@
 version: "3"
 services:
   firefox:
-    image:  vnc-xububtu-chrome-pycharmce:latest:latest
+    image:  vnc-ubuntu-xfce-pycharm:latest
     volumes:
     - ./dataub:/dataub
     environment:
