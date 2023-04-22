@@ -1,0 +1,13 @@
+version: "3"
+services:
+  firefox:
+    image:  chengziqaq/vnc-xububtu-chrome-pycharmpro-django:latest
+    volumes:
+    - ./dataub:/dataub
+    environment:
+    - VNC_PW:"headless"
+      VNC_RESOLUTION:"1920x1080"
+      VNC_PW:"VNCmm@1234"
+    ports:
+    - "5901:5901"
+    restart: always
